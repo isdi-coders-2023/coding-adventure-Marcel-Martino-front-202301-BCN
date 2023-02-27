@@ -6,9 +6,7 @@ interface ButtonProps {
 
 const SignUpButton = ({ text }: ButtonProps): JSX.Element => {
   return (
-    <SignUpButtonStyled>
-      <button className="signUpButton">{text}</button>
-    </SignUpButtonStyled>
+    <SignUpButtonStyled className="signUpButton">{text}</SignUpButtonStyled>
   );
 };
 

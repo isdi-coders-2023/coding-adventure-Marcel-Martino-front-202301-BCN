@@ -19,3 +19,10 @@ a {
 button {
   border: none;
 }
+
+:root {
+  --color-primary: #ffffff;
+  --color-secondary: #cccf18;
+  --color-tertiary: #f3949a;
+  --background-color: #1e1e1e;
+}

@@ -1,4 +1,5 @@
 import "@fontsource/saira-stencil-one";
+import "./globalStyles.css";
 
 import React from "react";
 import ReactDOM from "react-dom/client";
