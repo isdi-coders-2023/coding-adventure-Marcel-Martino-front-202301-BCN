@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import Button from "./button";
+import Button from "./SignUpButton";
 
 describe("Given a button component", () => {
   describe("When rendered with the text 'Sign Up'", () => {
