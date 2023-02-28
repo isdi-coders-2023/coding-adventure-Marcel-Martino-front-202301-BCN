@@ -1,7 +1,8 @@
 import React from "react";
+import Button from "./components/button/Button";
 
 const App = (): JSX.Element => {
-  return <p>Hello Developers!</p>;
+  return <Button classname="signup__button" text="Sign Up" />;
 };
 
 export default App;
