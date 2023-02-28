@@ -1,5 +1,6 @@
 import styled from "styled-components";
-const SignUpButtonStyled = styled.button`
+
+const ButtonStyled = styled.button`
   width: 323.02px;
   height: 40px;
   border: none;
@@ -17,4 +18,4 @@ const SignUpButtonStyled = styled.button`
     height: 57px;
   }
 `;
-export default SignUpButtonStyled;
+export default ButtonStyled;
