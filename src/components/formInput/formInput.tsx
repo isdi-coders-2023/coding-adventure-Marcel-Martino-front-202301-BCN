@@ -27,7 +27,7 @@ const FormInput = ({
         placeholder={placeholder}
         onChange={action}
       ></input>
-      <span>{requiredText}</span>
+      <span className="form__required-text">{requiredText}</span>
     </div>
   );
 };
