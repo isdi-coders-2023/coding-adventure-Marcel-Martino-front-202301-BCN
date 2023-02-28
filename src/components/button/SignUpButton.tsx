@@ -4,10 +4,10 @@ interface ButtonProps {
   text: string;
 }
 
-const SignUpButton = ({ text }: ButtonProps): JSX.Element => {
+const Button = ({ text }: ButtonProps): JSX.Element => {
   return (
     <SignUpButtonStyled className="signUpButton">{text}</SignUpButtonStyled>
   );
 };
 
-export default SignUpButton;
+export default Button;

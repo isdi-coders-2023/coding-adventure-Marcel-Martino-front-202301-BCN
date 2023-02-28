@@ -6,7 +6,7 @@ const SignUpButtonStyled = styled.button`
 
   background: var(--color-secondary);
   border-radius: 10px;
-  font-family: "Saira Stencil One";
+  font-family: var(--secondary-font);
 
   font-size: 20px;
   line-height: 31px;
