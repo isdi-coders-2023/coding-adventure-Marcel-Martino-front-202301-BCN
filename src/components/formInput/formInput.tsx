@@ -1,9 +1,10 @@
+import InputStyled from "./inputStyled";
+
 interface FormInputProps {
   title: string;
   placeholder: string;
   requiredText: string;
   inputType: string;
-  classname: string;
   action?: () => {};
 }
 
@@ -12,23 +13,22 @@ const FormInput = ({
   placeholder,
   requiredText,
   inputType,
-  classname,
   action,
 }: FormInputProps): JSX.Element => {
   return (
-    <div>
+    <InputStyled className="input">
       <label htmlFor={title} className="input__title">
         {title}
       </label>
       <input
         id={title}
-        className={classname}
+        className="input__paramater"
         type={inputType}
         placeholder={placeholder}
         onChange={action}
       ></input>
-      <span className="form__required-text">{requiredText}</span>
-    </div>
+      <span className="input__required-text">{requiredText}</span>
+    </InputStyled>
   );
 };
 

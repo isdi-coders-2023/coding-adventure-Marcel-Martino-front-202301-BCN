@@ -28,4 +28,5 @@ button {
 
   --primary-font: "Roboto";
   --secondary-font: "Saira Stencil One";
+  background-color: var(--background-color);
 }

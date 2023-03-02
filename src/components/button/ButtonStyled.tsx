@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const ButtonStyled = styled.button`
-  width: 323.02px;
+  width: 100%;
   height: 40px;
   border: none;
 
@@ -15,6 +15,8 @@ const ButtonStyled = styled.button`
   color: var(--background-color);
 
   @media (min-width: 700px) {
+    margin-top: 29px;
+    width: 323px;
     height: 57px;
   }
 `;
