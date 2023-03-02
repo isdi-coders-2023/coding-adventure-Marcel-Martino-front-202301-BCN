@@ -15,8 +15,9 @@ const ButtonStyled = styled.button`
   color: var(--background-color);
 
   @media (min-width: 700px) {
+    margin-top: 29px;
+    width: 323px;
     height: 57px;
-    width: 100%;
   }
 `;
 export default ButtonStyled;

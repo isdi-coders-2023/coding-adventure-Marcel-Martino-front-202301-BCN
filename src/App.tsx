@@ -1,7 +1,8 @@
 import React from "react";
+import SignUpForm from "./components/form/form";
 
 const App = (): JSX.Element => {
-  return <p>Hello Developers!</p>;
+  return <SignUpForm />;
 };
 
 export default App;

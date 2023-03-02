@@ -7,33 +7,30 @@ const SignUpForm = (): JSX.Element => {
     <>
       <FormStyled className="form">
         <h2 className="form__title">Register for the event</h2>
-        <form className="form__register-form">
-          <FormInput
-            title="Email"
-            inputType="email"
-            requiredText="Email is required"
-            placeholder="Introduce your email"
-            classname="form__email"
-          />
-          <FormInput
-            title="Password"
-            inputType="password"
-            requiredText="A password is required"
-            placeholder="Introduce your password"
-            classname="form__password"
-          />
-          <FormInput
-            title="Image"
-            inputType="file"
-            requiredText="An image is required"
-            placeholder="Introduce an image"
-            classname="form__file"
-          />
+        <FormInput
+          title="Email"
+          inputType="email"
+          requiredText="Email is required"
+          placeholder="Introduce your email"
+        />
+        <FormInput
+          title="Password"
+          inputType="password"
+          requiredText="A password is required"
+          placeholder="Introduce your password"
+        />
+        <FormInput
+          title="Image"
+          inputType="file"
+          requiredText="An image is required"
+          placeholder="Introduce an image"
+        />
+        <div className="form__button-container">
           <Button
             text="Sign Up"
-            classname="form__submit-button submit-button"
+            classname="button-container__submit-button submit-button"
           />
-        </form>
+        </div>
       </FormStyled>
     </>
   );
