@@ -1,10 +1,11 @@
 import Button from "../button/Button";
 import FormInput from "../formInput/formInput";
+import FormStyled from "./formStyled";
 
 const SignUpForm = (): JSX.Element => {
   return (
     <>
-      <div className="form">
+      <FormStyled className="form">
         <h2 className="form__title">Register for the event</h2>
         <form className="form__register-form">
           <FormInput
@@ -33,7 +34,7 @@ const SignUpForm = (): JSX.Element => {
             classname="form__submit-button submit-button"
           />
         </form>
-      </div>
+      </FormStyled>
     </>
   );
 };

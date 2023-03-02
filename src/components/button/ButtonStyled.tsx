@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const ButtonStyled = styled.button`
-  width: 323.02px;
+  width: 100%;
   height: 40px;
   border: none;
 
@@ -16,6 +16,7 @@ const ButtonStyled = styled.button`
 
   @media (min-width: 700px) {
     height: 57px;
+    width: 100%;
   }
 `;
 export default ButtonStyled;

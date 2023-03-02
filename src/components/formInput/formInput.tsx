@@ -16,7 +16,7 @@ const FormInput = ({
   action,
 }: FormInputProps): JSX.Element => {
   return (
-    <div>
+    <div className="form__input">
       <label htmlFor={title} className="input__title">
         {title}
       </label>

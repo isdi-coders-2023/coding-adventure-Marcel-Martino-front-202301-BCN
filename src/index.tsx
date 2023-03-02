@@ -1,4 +1,5 @@
 import "@fontsource/saira-stencil-one";
+import "@fontsource/roboto";
 import "./globalStyles.css";
 
 import React from "react";
